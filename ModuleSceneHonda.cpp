@@ -66,7 +66,7 @@ update_status ModuleSceneHonda::Update()
 	App->render->Blit(graphics, 0, -16, &roof, 0.75f);
 
 	// TODO 3: make so pressing SPACE the KEN stage is loaded
-	if (App->input->keyboard[SDL_SCANCODE_SPACE]){
+	if (App->input->keyboard[SDL_SCANCODE_TAB]){
 		App->fade->FadeToBlack(this, (Module*)App->scene_ken);
 	}
 

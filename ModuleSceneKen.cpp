@@ -96,7 +96,7 @@ update_status ModuleSceneKen::Update()
 	App->render->Blit(graphics, 0, 170, &ground);
 
 	// TODO 3: make so pressing SPACE the HONDA stage is loaded
-	if (App->input->keyboard[SDL_SCANCODE_SPACE]){
+	if (App->input->keyboard[SDL_SCANCODE_TAB]){
 		App->fade->FadeToBlack(this, (Module*)App->scene_honda);
 	}
 
